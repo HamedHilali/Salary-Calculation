@@ -1,0 +1,9 @@
+name = input("Enter staff name: ") 
+basic_salary = float(input("Enter allowance (OMR): "))
+allowance = float(input("Enter allowence (OMR) : "))
+bonus = 100
+gross_salary = basic salary + allowance + bonus
+
+print("Staff Name:", name)
+print("Bonus:", bonus, "OMR")
+print("Gross salary:", gross_salary, "OMR")
