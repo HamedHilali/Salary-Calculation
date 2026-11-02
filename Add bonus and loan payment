@@ -1,0 +1,18 @@
+name = input("Enter staff name: ") 
+basic_salary = float(input("Enter allowance (OMR): "))
+allowance = float(input("Enter allowence (OMR) : "))
+bonus = 100
+gross_salary = basic salary + allowance + bonus
+
+has_loan = input("Does the staff have a loan? (yes/no): ")
+if has_loan.lower() == "yes":
+loan_payment = float(input("Enter loan payment amount (OMR): "))
+else:
+    loan_payment = 0
+
+net_salary = gross_salary - loan payment
+
+print ("Staff Name", name)
+print("gross_salary:", gross_salary)
+print("Loan payment:", loan_payment)
+print("Net Salary:", net_salary)
